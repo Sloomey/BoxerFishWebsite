@@ -12,12 +12,12 @@ function App() {
         <a href="https://vite.dev" target="_blank">
           <img src={BandLogo} className="logo" alt="Vite logo" style={{ width: '80px', height: 'auto' }} />
         </a>
-      <Router> 
+      <Router>
         <nav>
           <Link to={PAGES.home}> Home </Link>
           <Link to={PAGES.news}> News </Link>
           <Link to={PAGES.music}> Music </Link>
-          <Link to={PAGES.home}> Store </Link>
+          <Link to={PAGES.store}> Store </Link>
         </nav>
         <Routes>
           <Route path={PAGES.home} element={<Home />} />

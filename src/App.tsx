@@ -8,11 +8,11 @@ import BandLogo from './assets/BandLogo.png'
 
 function App() {
   return (
-    <>        
-        <a href="https://vite.dev" target="_blank">
-          <img src={BandLogo} className="logo" alt="Vite logo" style={{ width: '80px', height: 'auto' }} />
-        </a>
+    <>
       <Router>
+      <Link to={PAGES.home}>
+        <img src={BandLogo} className="logo" alt="Vite logo" style={{ width: '80px', height: 'auto' }} />
+      </Link>
         <nav>
           <Link to={PAGES.home}> Home </Link>
           <Link to={PAGES.news}> News </Link>

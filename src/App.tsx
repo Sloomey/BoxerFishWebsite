@@ -1,27 +1,27 @@
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import {PAGES} from './constants'
+import Shows from './pages/Shows'
 import Home from './pages/Home'
 import News from './pages/News'
 import Music from './pages/Music'
 import Store from './pages/Store'
-import BandLogo from './assets/BandLogo.png'
 import Navbar from './components/Navbar'
+import Footer from './components/Foot'
 
 function App() {
   return (
     <>
       <Router>
-      <Link to={PAGES.home}>
-        <img src={BandLogo} className="logo" alt="Vite logo" style={{ width: '80px', height: 'auto' }} />
-      </Link>
       <Navbar />
         <Routes>
           <Route path={PAGES.home} element={<Home />} />
+          <Route path={PAGES.shows} element={<Shows />} />
           <Route path={PAGES.news} element={<News />} />
           <Route path={PAGES.music} element={<Music />} />
           <Route path={PAGES.store} element={<Store />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   )
 }

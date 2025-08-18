@@ -7,6 +7,7 @@ import Music from './pages/Music'
 import Store from './pages/Store'
 import Navbar from './components/Navbar'
 import Footer from './components/Foot'
+import SocialBar from "./components/socialBar"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         </Routes>
       </Router>
       <Footer />
+      <SocialBar />
     </>
   )
 }

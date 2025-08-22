@@ -2,7 +2,7 @@ function Store() {
   return (
     <>
       <h1>Store</h1>
-      <p>Check out our merchandise and support us!</p>
+      <p>Check out the merchandise and support the band</p>
     </>
   )
 }

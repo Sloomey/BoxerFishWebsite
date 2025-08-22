@@ -1,6 +1,5 @@
 import type { ReactNode } from "react";
-import { FaTwitter, FaGithub, FaLinkedin, FaInstagram, FaFacebook, FaTiktok, FaYoutube } from "react-icons/fa";
-import { FaX } from "react-icons/fa6";
+import { FaTwitter, FaInstagram, FaFacebook, FaTiktok, FaYoutube } from "react-icons/fa";
 
 export type SocialLink = {
   name: string;

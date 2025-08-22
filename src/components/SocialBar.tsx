@@ -1,5 +1,5 @@
 // SocialBar.tsx
-import { socialLinks } from "../data/sociallinks.tsx";
+import { socialLinks } from "../data/socialLinks.tsx";
 import SocialButton from "./SocialButton";
 
 export default function SocialBar() {

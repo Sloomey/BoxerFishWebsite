@@ -1,20 +1,21 @@
 import { Link } from "react-router-dom"
 import { PAGES } from "../constants"
-import BandLogo from '../assets/BandLogo.png'
 
 function Navbar() {
     return (
         <nav style={{
             display: 'flex',
+            justifyContent: 'flex-end',
             alignItems: 'center',
-            gap: '1rem'
+            gap: '1rem',
+            width: '100%',
+            position: 'fixed',  
+            top: 20,
+            right: 75
         }}>
-        <Link to={PAGES.home}>
-            <img src={BandLogo} className="logo" alt="Vite logo" style={{ width: '80px', height: 'auto' }} />
-        </Link>
-        <Link to={PAGES.shows}> Shows </Link>
-        <Link to={PAGES.music}> Music </Link>
-        <Link to={PAGES.store}> Store </Link>
+            <Link to={PAGES.shows}> Shows </Link>
+            <Link to={PAGES.music}> Music </Link>
+            <Link to={PAGES.store}> Store </Link>
         </nav>
     )
 }

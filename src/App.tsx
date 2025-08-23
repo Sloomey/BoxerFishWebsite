@@ -6,11 +6,13 @@ import Music from './pages/Music'
 import Store from './pages/Store'
 import Navbar from './components/Navbar'
 import Footer from './components/Foot'
+import Header from './components/Header.tsx'
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <Header />
         <Navbar />
           <Routes>
             <Route path={PAGES.home} element={<Home />} />

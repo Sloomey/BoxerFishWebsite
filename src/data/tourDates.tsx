@@ -7,7 +7,6 @@ export type tourDate = {
 };
 
 export const tourDates: tourDate[] = [
-
     {
         date: "2024-01-15",
         venue: "The Echo",

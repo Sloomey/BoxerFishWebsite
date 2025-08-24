@@ -8,9 +8,9 @@ export type MusicLink = {
 };
 
 export const musicLinks: MusicLink[] = [
-  { name: "Spotify", url: "", icon: <FaSpotify /> },
-  { name: "Apple Music", url: "", icon: <FaApple /> },
-  { name: "Bandcamp", url: "", icon: <FaBandcamp /> },
-  { name: "Youtube Music", url: "", icon: <FaYoutubeSquare /> },
-  { name: "Deezer", url: "", icon: <FaDeezer /> }
+  { name: "Spotify", url: "https://instagram.com/boxerfishband", icon: <FaSpotify /> },
+  { name: "Apple Music", url: "https://instagram.com/boxerfishband", icon: <FaApple /> },
+  { name: "Bandcamp", url: "https://instagram.com/boxerfishband", icon: <FaBandcamp /> },
+  { name: "Youtube Music", url: "https://instagram.com/boxerfishband", icon: <FaYoutubeSquare /> },
+  { name: "Deezer", url: "https://instagram.com/boxerfishband", icon: <FaDeezer /> }
 ];

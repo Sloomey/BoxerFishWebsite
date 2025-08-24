@@ -7,10 +7,22 @@ import Store from './pages/Store'
 import Navbar from './components/Navbar'
 import Footer from './components/Foot'
 import Header from './components/Header.tsx'
+import styled from 'styled-components';
+
+const Main = styled.div`
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+`;
+
+
 
 function App() {
   return (
     <>
+    <Main >
       <BrowserRouter>
         <Header />
         <Navbar />
@@ -22,6 +34,7 @@ function App() {
           </Routes>
       </BrowserRouter>
       <Footer />
+      </Main>
     </>
   )
 }

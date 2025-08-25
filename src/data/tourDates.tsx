@@ -237,5 +237,12 @@ export const tourDates: tourDate[] = [
         city: "New York",
         state: "NY",
         link: "https://www.example.com/tickets/brooklynbowl",
+    },
+    {
+        date: "2024-02-20",
+        venue: "The Fillmore",
+        city: "San Francisco",
+        state: "CA",
+        link: "https://www.example.com/tickets/fillmore",
     }
 ];

@@ -1,5 +1,4 @@
 import { musicLinks } from "../data/musicLinks.tsx";
-
 import styled from "styled-components";
 
 const Button = styled.button`
@@ -16,13 +15,7 @@ const Button = styled.button`
   &:hover {
     background-color: grey;
   }
-`;     
-
-function clickMe() {
-  alert("You clicked me!");
-}
-
-
+`;
 
 export default function StreamingLinks() {
   return (

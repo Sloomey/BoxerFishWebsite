@@ -11,13 +11,10 @@ import styled from 'styled-components';
 
 const Main = styled.div`
   text-align: center;
-  width: 100%;
-  position: fixed;
+  width: 98vw;
   top: 0;
   left: 0;
 `;
-
-
 
 function App() {
   return (
